@@ -1,0 +1,230 @@
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    
+    display: flex;
+    flex-direction:column;
+    background-color: rgb(241, 204, 158);
+    }
+    .container{
+    max-width: 1180px;
+    margin: 0px auto;
+    }
+    .content{
+    flex:1 1 auto;
+    }
+    
+    .hi{
+    background-color: rgb(223, 178, 111);
+    padding: 50px 0;
+    }
+    
+    
+    .hi__row{
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    .hi__body{
+        color: rgb(255, 255, 255);
+        padding-right: 30px;
+    
+    }
+    .hi__title{
+       
+        font-size: 60px;
+        margin: 0px 0px 38px 0px;
+        color: #000;
+    
+    
+    }
+    .hi__list{}
+    .hi__list li{
+    background: url('..');
+
+    font-size: 20px;
+    margin: 0px 0px 15px 0px;
+    line-height: 22px;
+    color: #000;
+    }
+    .hi__list li:last-child{
+        margin: 0;
+    }
+    .hi__img{
+       
+    
+    }
+    .footer{
+        background-color: rgb(223, 178, 111);
+    
+    }
+    .footer__row{
+    display: flex;
+    height:50px;
+    justify-content: center;
+    align-items: center;
+    }
+    .footer__text{
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        letter-spacing: 0.3px;
+    
+    }
+    
+    
+    .title{
+        color: #000000;
+        font-size: 30px;
+        line-height:36px ;
+    }
+    
+    
+    
+    .what{
+        padding: 50px 0;
+    }
+    .what__row{
+        display: flex;
+    }
+    .what__image{
+        flex:0 0 430px;
+         
+    }
+    .what__image img{
+        max-width: 100%;
+    }
+    .what__body{
+      flex:1 1 auto; 
+      padding: 0px 0px 0px 38px; 
+    }
+    .what__title{
+     margin: 0px 0px 10px 0px;  
+     color: #000000; 
+    }
+    .what__text{}
+    .what__text{
+    margin: 0px 0px 25px 0px;
+    font-size: 16px;
+    line-height: 24px;
+    }
+    
+    
+    
+    .columns{
+        padding: 50px 0 ;
+    }
+    .columns__title{
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+    }
+    .columns__row{
+        display: flex;
+        flex-wrap: wrap; 
+        margin: 0px -8px;  
+    }
+    .columns__column{
+        padding: 0px 8px;
+        flex: 0 1 48%;
+        margin: 0px 0px 30px 0px;
+        
+    }
+    .columns__item{}
+    .item{}
+    .item__row{
+        display: flex;
+        
+        
+    }
+    .item__image{
+        flex: 0 0 200px;
+    }
+    .item__body{
+    flex: 1 1 auto;
+    padding: 0 0 0 15px;
+    }
+    .item__title{
+        font-size: 24px;
+        line-height:30px ;
+        margin: 0 0 13px 0;
+    }
+    .item__text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    
+    .vertical{
+        padding: 50px 0;
+    }
+    .vertical__title{
+        text-align: center;
+        margin:0px 0px 60px 0px ;
+    }
+    .title{text-align: center;
+    padding: 0 0px 15px 0px;}
+    .vertical__body{
+        max-width: 990px;
+        margin: 0px auto;
+    }
+    .vertical__row{
+        display: flex;
+        margin: 0px -22.5px;
+    }
+    .vertical__column{
+        flex: 0 1 33.333%;
+        padding: 0px 22.5px;
+        display: flex;
+    }
+    .vertical__item{
+        background-color: rgb(185, 135, 59);
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        border: 1px solid rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+    }
+    .vertical__subtitle{
+        text-align: center;
+        font-size: 24px;
+        text-transform:uppercase ;
+    padding: 12px 0px;
+    }
+    .vertical__label{
+    background-color: #ffffff;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        padding: 15px 0;
+        font-size: 40px;
+    }
+    .vertical__text{
+        padding: 15px 15px 15px 15px;
+        flex: 1 1 auto;
+    }
+    
+    .vertical__btn{
+    text-align: center;
+    color: rgb(0, 0, 0) ;
+    height: 40px;
+    display:block;
+    margin: 0px 15px 28px 15px;
+    line-height: 40px;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 20px;
+    
+    text-decoration: none;
+    
+    }
+    .vertical__btn:hover{
+        color: rgb(224, 124, 30);
+        text-decoration-line: underline;
+      
+    
+    }
+    .klik{
+        font-size: 20px;
+        color: #f58326;
+        text-decoration: none;
+    }
+    
+    
